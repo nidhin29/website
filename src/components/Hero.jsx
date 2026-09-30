@@ -1,3 +1,5 @@
+import heroImg from '../assets/hero.png';
+
 export default function Hero() {
   return (
     <section id="hero">
@@ -20,7 +22,7 @@ export default function Hero() {
         </div>
         <div className="hero-image-container">
           <div className="hero-image-wrapper">
-            <img src="src/assets/hero.png" alt="Nithu" className="hero-img" />
+            <img src={heroImg} alt="Nithu" className="hero-img" />
             <div className="hero-image-glow"></div>
           </div>
         </div>

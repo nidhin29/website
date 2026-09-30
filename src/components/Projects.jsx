@@ -1,9 +1,11 @@
 import ProjectCanvas from './ProjectCanvas';
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const projects = [
   {
     type: 'churn',
-    image: '/assets/churn_prediction.png',
+    image: `${baseUrl}assets/churn_prediction.png`,
     codeUrl: 'https://github.com/nithu24/Customer-Churn-Prediction-Model-',
     demoUrl: 'https://github.com/nithu24/Customer-Churn-Prediction-Model-',
     visualClass: 'pv-ml',
@@ -14,7 +16,7 @@ const projects = [
   },
   {
     type: 'bi',
-    image: '/assets/global_sales.png',
+    image: `${baseUrl}assets/global_sales.png`,
     codeUrl: 'https://github.com/nithu24/Global-Electronics-Sales-Dashboard-',
     demoUrl: 'https://github.com/nithu24/Global-Electronics-Sales-Dashboard-',
     visualClass: 'pv-bi',
@@ -25,7 +27,7 @@ const projects = [
   },
   {
     type: 'nids',
-    image: '/assets/network_security.png',
+    image: `${baseUrl}assets/network_security.png`,
     codeUrl: 'https://github.com/nithu24/Network-Intrusion-Detection-System-using-Stacked-Sparse-Autoencoders',
     demoUrl: 'https://github.com/nithu24/Network-Intrusion-Detection-System-using-Stacked-Sparse-Autoencoders',
     visualClass: 'pv-sec',
@@ -36,7 +38,7 @@ const projects = [
   },
   {
     type: 'nlp',
-    image: '/assets/email_classification.png',
+    image: `${baseUrl}assets/email_classification.png`,
     codeUrl: 'https://github.com/nithu24/Abusive-Email-Classification',
     demoUrl: 'https://github.com/nithu24/Abusive-Email-Classification',
     visualClass: 'pv-nlp',
@@ -47,7 +49,7 @@ const projects = [
   },
   {
     type: 'rec',
-    image: '/assets/book_recommendation.png',
+    image: `${baseUrl}assets/book_recommendation.png`,
     codeUrl: 'https://github.com/nithu24/Book-Recommendation-System-',
     demoUrl: 'https://github.com/nithu24/Book-Recommendation-System-',
     visualClass: 'pv-rec',
@@ -58,7 +60,7 @@ const projects = [
   },
   {
     type: 'chat',
-    image: '/assets/interview_chatbot.png',
+    image: `${baseUrl}assets/interview_chatbot.png`,
     codeUrl: 'https://github.com/nithu24/Chatbot-for-Data-Science-Interview-Questions-',
     demoUrl: 'https://github.com/nithu24/Chatbot-for-Data-Science-Interview-Questions-',
     visualClass: 'pv-chat',
@@ -69,7 +71,7 @@ const projects = [
   },
   {
     type: 'bi',
-    image: '/assets/restaurant_bi.png',
+    image: `${baseUrl}assets/restaurant_bi.png`,
     codeUrl: 'https://github.com/nithu24',
     demoUrl: 'https://github.com/nithu24',
     visualClass: 'pv-bi',
@@ -80,7 +82,7 @@ const projects = [
   },
   {
     type: 'bi',
-    image: '/assets/ecf_payment.png',
+    image: `${baseUrl}assets/ecf_payment.png`,
     codeUrl: 'https://github.com/nithu24',
     demoUrl: 'https://github.com/nithu24',
     visualClass: 'pv-bi',
@@ -91,7 +93,7 @@ const projects = [
   },
   {
     type: 'bi',
-    image: '/assets/supply_chain.png',
+    image: `${baseUrl}assets/supply_chain.png`,
     codeUrl: 'https://github.com/nithu24/DataCo-SupplyChain-PowerBI',
     demoUrl: 'https://github.com/nithu24/DataCo-SupplyChain-PowerBI',
     visualClass: 'pv-bi',
